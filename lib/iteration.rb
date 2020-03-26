@@ -10,8 +10,9 @@ def join_ingredients(src)
   new_array = []
   row_index = 0
   while row_index < src.length do
-    
-  
+    new_array.push("I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza")
+    row_index += 1
+  return new_array
   
   
 end
